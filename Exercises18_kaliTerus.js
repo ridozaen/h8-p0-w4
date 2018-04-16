@@ -1,3 +1,12 @@
+// fungsi dibawah ini juga bisa pake reduce... 
+//function kaliTerusRekursif(angka) {
+//     if (angka <= 9){
+//         return angka;
+//     }
+//     var multp = angka.toString().split('').reduce(function(a,b){return a*b;})
+//     return kaliTerusRekursif(multp);
+//   }
+
 function kaliTerusRekursif(angka) {
     if (angka <= 9){
         return angka;
